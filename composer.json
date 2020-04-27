@@ -3,6 +3,7 @@
     "description": "Extension from nette.",
     "minimum-stability": "stable",
     "license": "GPL-3.0-only",
+    "version": "v0.0.1",
     "authors": [
         {
             "name": "Ondřej Maxa",
