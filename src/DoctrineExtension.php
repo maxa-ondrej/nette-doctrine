@@ -32,7 +32,7 @@ class DoctrineExtension extends CompilerExtension
      */
     public function loadConfiguration(): void
     {
-        $config = array_merge_recursive(self::DEFAULT_CONFIG, $this->config);
+        $config = array_replace_recursive(self::DEFAULT_CONFIG, $this->config);
         $connection = $config['connection'];
         $configuration = Setup::createAnnotationMetadataConfiguration(
             $config['config']['paths'],
