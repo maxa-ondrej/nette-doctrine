@@ -1,8 +1,9 @@
 {
-    "name": "ondrej-maxa/nette-doctrine",
-    "description": "Extension from nette.",
+    "name": "maxa-ondrej/nette-doctrine",
+    "description": "Extension for nette.",
     "minimum-stability": "stable",
     "license": "GPL-3.0-only",
+    "version": "v1.0.0",
     "authors": [
         {
             "name": "Ondřej Maxa",
