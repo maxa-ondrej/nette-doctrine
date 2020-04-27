@@ -1,0 +1,26 @@
+{
+    "name": "ondrej-maxa/nette-doctrine",
+    "description": "Extension from nette.",
+    "minimum-stability": "stable",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Ondřej Maxa",
+            "email": "ondrej@maxa.expert",
+            "homepage": "https://ondrej.maxa.expert"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Expert\\Maxa\\Ondrej\\Doctrine\\Bridges\\Nette\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "nette/di": "^3.0",
+        "doctrine/orm": "^2.7"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
